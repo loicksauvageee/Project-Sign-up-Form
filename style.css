@@ -25,8 +25,9 @@ body {
 }
 
 .Content {
-    background-color: blue;
     width: 70%;
+    background-color: #fff;
+    margin: 50px;
 }
 
 .Title-img {
@@ -46,4 +47,13 @@ body {
     color: white;
     font-family: 'Norse';
     font-size: 250%;
+}
+
+.myform {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
 }
